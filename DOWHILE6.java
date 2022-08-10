@@ -2,7 +2,7 @@
 final imprimir a média dos números múltiplos de 3. Para sair digitar
 0(zero).(DO...WHILE)*/
 
-package ExerciciosJava;
+package ExerciciosJava.JAVA;
 
 import java.util.Scanner;
 
