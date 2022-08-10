@@ -1,4 +1,5 @@
 /*2- Faça um programa que receba 6 números inteiros e mostre: 
+
 • Os números pares digitados;  
 • A soma dos números pares digitados; 
 • Os números ímpares digitados; 
@@ -33,6 +34,7 @@ public class Arrays2 {
 				somaPar += num [x]; //if e else sempre DENTRO do laço For
 		}
 		}
+		
 		System.out.println("Os números ímpares foram: " );
 		for (int y=0;y<6;y++) {
 			
@@ -40,14 +42,22 @@ public class Arrays2 {
 		System.out.println(num[y]);
 			}
 		}
-		
+			System.out.println("Os números pares foram: ");
+			for (int z=0;z<6;z++) {
+			if(num[z]%2==0) {
+				System.out.println(num[z]);
+				
+			}
+		}
+	
 		
 		System.out.println("A soma dos números pares é: "+somaPar);
 		System.out.println("A quantidade de números ímpares é de: "+quantImpar);
 		
 		
+	
 		}
-		}
+}
 	
 
 
